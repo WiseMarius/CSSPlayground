@@ -19,3 +19,8 @@ body {
 li {
   font-family: inherit;
 }
+
+ol li + li {
+  background-color: black;
+  color: white;
+}
