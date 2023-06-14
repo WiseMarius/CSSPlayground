@@ -2,3 +2,8 @@
   color: darkgray;
   font-family: Sans-Serif;
 }
+
+code {
+  color: red;
+  font-family: monospace;
+}
