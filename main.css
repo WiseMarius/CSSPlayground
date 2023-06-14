@@ -11,3 +11,11 @@ code {
 .green-text code {
   color: green;
 }
+
+body {
+  font-family: Sans-Serif;
+}
+
+li {
+  font-family: inherit;
+}
