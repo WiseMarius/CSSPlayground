@@ -134,8 +134,8 @@ body {
 }
 
 .main-footer__link {
-  display: inline-block;
-  margin: 0 1rem;
+  display: block;
+  margin: 1rem 0 1rem 0;
 }
 
 .main-footer__link a {
@@ -208,5 +208,10 @@ body {
 
   .main-nav {
     display: inline-block;
+  }
+
+  .main-footer__link {
+    display: inline-block;
+    margin: 0rem 1rem 0rem 1rem;
   }
 }
