@@ -60,7 +60,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: 1.5rem;
-  height: 1.5rem;
+  height: 4rem;
   /* width: 20px; */
   display: inline-block;
   vertical-align: middle;
@@ -72,7 +72,7 @@ body {
 }
 
 .main-nav {
-  display: inline-block;
+  display: none;
   text-align: right;
   width: calc(100% - 122px);
   vertical-align: middle;
@@ -198,5 +198,15 @@ body {
 }
 
 .open {
-    display: block !important;
+  display: block !important;
+}
+
+@media (min-width: 40rem) {
+  .toggle-button {
+    display: none;
+  }
+
+  .main-nav {
+    display: inline-block;
+  }
 }
