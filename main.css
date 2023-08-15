@@ -44,7 +44,7 @@
   background: #d5ffdc;
   text-align: center;
   padding: 1rem;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0.1rem;
   width: 100%;
 }
 
@@ -90,10 +90,10 @@
 @media (min-width: 40rem) {
   /*assignment => flex container*/
   .plan__list {
-    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
   }
 
   /*assignment => flex container*/
@@ -154,13 +154,16 @@
 @media (min-width: 40rem) {
   /*assignment*/
   .key-feature {
-    display: inline-block;
     width: 30%;
     max-width: 25rem;
-    vertical-align: top;
   }
 
   /*assignment => add .key-feature_list => flex container*/
+  .key-feature__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
 /* h1 {
