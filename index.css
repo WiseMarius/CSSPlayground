@@ -4,9 +4,9 @@
   grid-template-rows: 20% 250px 20%;
   grid-template-columns: 20% auto;
   grid-template-areas:
-    "header header header"
-    "sidebar main_content main_content"
-    "footer footer footer";
+    "header header"
+    "sidebar main_content"
+    "footer footer";
 }
 
 .grid > div {
