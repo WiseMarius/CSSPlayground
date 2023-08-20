@@ -17,8 +17,9 @@ main {
 }
 
 .backdrop {
-  position: fixed;
   display: none;
+  position: fixed;
+  opacity: 0;
   top: 0;
   left: 0;
   z-index: 100;
@@ -161,14 +162,14 @@ main {
 }
 
 .mobile-nav {
-  display: none;
   position: fixed;
   z-index: 101;
   top: 0;
-  left: 0;
+  left: -80%;
   background: white;
   width: 80%;
   height: 100vh;
+  transition: all 0.5s;
 }
 
 .mobile-nav__items {
@@ -221,6 +222,8 @@ main {
 
 .open {
   display: block !important;
+  transition: all 0.5s;
+  left: 0px;
 }
 
 @media (min-width: 40rem) {
